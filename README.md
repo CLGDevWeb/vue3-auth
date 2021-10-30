@@ -1,7 +1,8 @@
 # :star2: VueJS 3 Auth avec Vuex & Vue Router
 
 ## :file_folder: Structure
-`├── App.vue
+```bash
+├── App.vue
 ├── container.js
 ├── main.js
 ├── clients
@@ -22,4 +23,5 @@
     ├── mutations.js      # root mutations
     └── modules
         ├── cart.js       # cart module
-        └── products.js   # products module`
+        └── products.js   # products module
+```
