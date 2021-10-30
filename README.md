@@ -1,7 +1,7 @@
 # VueJS 3 Auth avec Vuex & Vue Router
 
 ## Structure
-├── App.vue
+`├── App.vue
 ├── container.js
 ├── main.js
 ├── clients
@@ -22,4 +22,4 @@
     ├── mutations.js      # root mutations
     └── modules
         ├── cart.js       # cart module
-        └── products.js   # products module
+        └── products.js   # products module`
