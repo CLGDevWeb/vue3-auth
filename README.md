@@ -1,6 +1,6 @@
-# VueJS 3 Auth avec Vuex & Vue Router
+# :star2: VueJS 3 Auth avec Vuex & Vue Router
 
-## Structure
+## :file_folder: Structure
 `├── App.vue
 ├── container.js
 ├── main.js
