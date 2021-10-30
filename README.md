@@ -1,5 +1,36 @@
 # :star2: VueJS 3 Auth avec Vuex & Vue Router
 
+## :loudspeaker: Description
+Ce dépôt Github est un synthèse d'une de mes expériences professionnelles de projet Front-End avec :
+```
+- VueJS 3.2.2
+- Vue-router 4.0.12
+- Vuex 4.0
+```
+Cette synthèse s'addresse aux personnes souhaitant mettre en place une authentification, sur une application VueJS, un peu plus poussée que celle des tutoriels habituels. Sans prétention aucune, les critiques constructives sont encouragées :pray:
+
+## :floppy_disk: Installation
+
+Télécharger l'application & installation des dépendances
+
+```
+  git clone #####
+  cd vue-auth
+  npm install
+```
+
+Créer & configurer le fichier `.env` à la racine du projet
+
+### Compiler le Javascript & le CSS
+```
+npm run serve
+```
+
+### Compiler pour la mise en production
+```
+npm run build
+```
+
 ## :file_folder: Structure
 ```bash
 ├── public
@@ -14,8 +45,11 @@
     │   ├── failure.js                  
     │   └── success.js
     ├── layouts                         # layouts de l'appli (configuration dans le router & main.js)
-    ├── repositories                    # librairie (endpoint) fonctionnelle d'appels API
+    ├── repositories                    # fonctions pour les appels API
     ├── router                          # Vue-router: routes, historique, meta, etc ...
+    │   ├── posts
+    │   ├── ...
+    │   └── index.js
     ├── services
     │   └── authenticationService.js    # service d'authentification (réutilisable dans les composants)
     ├── store                           # Vuex: global state management
@@ -24,7 +58,8 @@
     │   │    └── ...
     │   └── index.js
     ├── App.vue
-    ├── container.js
-    ├── main.js
-    └── .env
+    ├── container.js                    # librairie d'appels des repositories
+    ├── main.js                         # racine de l'application
+    └── .env                            # variables d'environnement
 ```
+
